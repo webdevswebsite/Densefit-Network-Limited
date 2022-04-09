@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?b8265793eafaed6f708c782996f9bef8") format("truetype"),
+url("./flaticon.woff?b8265793eafaed6f708c782996f9bef8") format("woff"),
+url("./flaticon.woff2?b8265793eafaed6f708c782996f9bef8") format("woff2"),
+url("./flaticon.eot?b8265793eafaed6f708c782996f9bef8#iefix") format("embedded-opentype"),
+url("./flaticon.svg?b8265793eafaed6f708c782996f9bef8#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before,
+i[class*=" flaticon-"]:before,
+span[class^="flaticon-"]:before,
+span[class*=" flaticon-"]:before { 
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-safety:before {
+    content: "\f101";
+}
+.flaticon-balance-sheet:before {
+    content: "\f102";
+}
+.flaticon-stats:before {
+    content: "\f103";
+}
+.flaticon-bond:before {
+    content: "\f104";
+}
+.flaticon-growth:before {
+    content: "\f105";
+}
+.flaticon-budget:before {
+    content: "\f106";
+}
+.flaticon-cryptocurrency:before {
+    content: "\f107";
+}
+.flaticon-digital-wallet:before {
+    content: "\f108";
+}
+.flaticon-retirement-plan:before {
+    content: "\f109";
+}
+.flaticon-consultant-services:before {
+    content: "\f10a";
+}
+.flaticon-employee:before {
+    content: "\f10b";
+}
+.flaticon-success:before {
+    content: "\f10c";
+}
+.flaticon-pie-chart:before {
+    content: "\f10d";
+}
+.flaticon-grow-up:before {
+    content: "\f10e";
+}
+.flaticon-research:before {
+    content: "\f10f";
+}
+.flaticon-income:before {
+    content: "\f110";
+}

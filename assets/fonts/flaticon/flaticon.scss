@@ -1,0 +1,89 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?b8265793eafaed6f708c782996f9bef8") format("truetype"),
+url("./flaticon.woff?b8265793eafaed6f708c782996f9bef8") format("woff"),
+url("./flaticon.woff2?b8265793eafaed6f708c782996f9bef8") format("woff2"),
+url("./flaticon.eot?b8265793eafaed6f708c782996f9bef8#iefix") format("embedded-opentype"),
+url("./flaticon.svg?b8265793eafaed6f708c782996f9bef8#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "safety": "\f101",
+    "balance-sheet": "\f102",
+    "stats": "\f103",
+    "bond": "\f104",
+    "growth": "\f105",
+    "budget": "\f106",
+    "cryptocurrency": "\f107",
+    "digital-wallet": "\f108",
+    "retirement-plan": "\f109",
+    "consultant-services": "\f10a",
+    "employee": "\f10b",
+    "success": "\f10c",
+    "pie-chart": "\f10d",
+    "grow-up": "\f10e",
+    "research": "\f10f",
+    "income": "\f110",
+);
+
+.flaticon-safety:before {
+    content: map-get($flaticon-map, "safety");
+}
+.flaticon-balance-sheet:before {
+    content: map-get($flaticon-map, "balance-sheet");
+}
+.flaticon-stats:before {
+    content: map-get($flaticon-map, "stats");
+}
+.flaticon-bond:before {
+    content: map-get($flaticon-map, "bond");
+}
+.flaticon-growth:before {
+    content: map-get($flaticon-map, "growth");
+}
+.flaticon-budget:before {
+    content: map-get($flaticon-map, "budget");
+}
+.flaticon-cryptocurrency:before {
+    content: map-get($flaticon-map, "cryptocurrency");
+}
+.flaticon-digital-wallet:before {
+    content: map-get($flaticon-map, "digital-wallet");
+}
+.flaticon-retirement-plan:before {
+    content: map-get($flaticon-map, "retirement-plan");
+}
+.flaticon-consultant-services:before {
+    content: map-get($flaticon-map, "consultant-services");
+}
+.flaticon-employee:before {
+    content: map-get($flaticon-map, "employee");
+}
+.flaticon-success:before {
+    content: map-get($flaticon-map, "success");
+}
+.flaticon-pie-chart:before {
+    content: map-get($flaticon-map, "pie-chart");
+}
+.flaticon-grow-up:before {
+    content: map-get($flaticon-map, "grow-up");
+}
+.flaticon-research:before {
+    content: map-get($flaticon-map, "research");
+}
+.flaticon-income:before {
+    content: map-get($flaticon-map, "income");
+}
